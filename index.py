@@ -7,10 +7,10 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 # SFTP server credentials
-SFTP_HOST = "137.255.67.85"
+SFTP_HOST = ""
 SFTP_PORT = 22
-SFTP_USER = "prosper"
-SFTP_PASS = "g3*PleY6"
+SFTP_USER = ""
+SFTP_PASS = "g****6"
 DESKTOP_DIR = os.path.join(os.path.expanduser("~"), "Desktop")
 REMOTE_BASE_DIR = "/DRONE FOOTAGES"
 
